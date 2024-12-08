@@ -27,6 +27,11 @@ step2: intall apache2 dengan menggunakan command "sudo apt install apache2"
 step3: setelah apache2 telah terinstall mari check status apache dengan menggunakan command "sudo systemctl status apache2" 
 ![alt text](https://github.com/tanuwijaya0811/devops22-dumbways-Tanu/blob/main/Stage-1/Day1/image/5.png?raw=true)
 
+step4: stelah menginstall apache2 bisa dicheck ip host dengan commend "hostname -I"
+![alt text](https://github.com/tanuwijaya0811/devops22-dumbways-Tanu/blob/main/Stage-1/Day1/image/6.png?raw=true)
+
+
+
 
 4. cara install nginx
 step1: install nginx dengan menggunakan command "sudo apt install nginx"
