@@ -1,6 +1,6 @@
-# **Panduan Instalasi dan Penggunaan**
+# **Panduan Pembuatan dan penggunaan Server, Database, Backend, Frontend,dan Webserver**
 
-Selamat datang di dokumentasi proyek ini! Di bawah ini adalah panduan instalasi dan penggunaan proyek ini. Anda akan menemukan langkah-langkah yang mudah diikuti dan perintah yang dapat disalin langsung.
+Selamat datang di dokumentasi proyek ini! Di bawah ini adalah panduan pembuatan, installasi dan penggunaan dalam proyek ini. Anda akan menemukan langkah-langkah yang mudah diikuti dan perintah yang dapat disalin langsung.
 
 ---
 
