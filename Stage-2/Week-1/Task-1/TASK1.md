@@ -222,7 +222,7 @@ CREATE DATABASE dumbflix;
 show databases;
 ```
 merubah settingan bind-address dan mysqlx-bind-address yang ada di pada mysql/mysql.conf.d 
-![Alt Text]([https://github.com/tanuwijaya0811/devops22-dumbways-Tanu/blob/main/Stage-2/Week-1/Task-1/images/24.png](https://github.com/tanuwijaya0811/devops22-dumbways-Tanu/blob/main/Stage-2/Week-1/Task-1/images/24.png))
+![Alt Text]([https://github.com/tanuwijaya0811/devops22-dumbways-Tanu/blob/main/Stage-2/Week-1/Task-1/images/24.png](https://github.com/tanuwijaya0811/devops22-dumbways-Tanu/blob/main/Stage-2/Week-1/Task-1/images/24.png)
 
 dengan menggunakan command dibawah ini:
 ```bash
