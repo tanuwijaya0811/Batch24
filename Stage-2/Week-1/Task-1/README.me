@@ -1,0 +1,62 @@
+Requirments:
+- Appserver for deploying Database, Frontend Application
+- Gateway for deploying Backend Application, And Web Server
+
+Tasks 1:
+- Create new user for all of your server
+- The server can login with SSH-KEY and password 
+
+Tasks 2:
+- Deploy database MySQL 
+	- Setup secure_installation
+	- Add password for `root` user
+	- Create new user for MySQL 
+	- Create new database
+	- Create privileges for your new user so they can access the database you created
+	- Dont forget to change the MySQL bind address on `/etc/mysql/mysql.conf.d/mysqld.cnf`
+- Role Based
+	- Create new database call `demo` and make some dummy table call `transaction`
+	- Create a 2 role with the name `admin`, and `guest` that will be used to see and manage the 'transaction' table.
+	- Give `SELECT`, `INSERT`, `UPDATE`, and `DELETE` access rights to the transaction table for the `admin` role you just created. and only give `SELECT` access to guest.
+	- Create a new user with the username `your_name` and password `your_password`. Add the user to the admin role.
+	- Create a new user with the username `guest` and password `guest`. Add the user to the guest role.
+	- Test all of your user
+- Remote User
+	- Try to remote your database from your local computer with mysql-client
+
+
+Repository :
+[Dumbflix Backend](https://github.com/dumbwaysdev/dumbflix-backend)
+
+Tasks 3:
+- Deploy Wayshub-Backend 
+	- Clone wayshub backend application
+	- Use Node Version 14
+	- Dont forget to change configuration on `dumbflix-backend/config/config.json` and then adjust it to your database.
+	- Install sequelize-cli 
+	- Running migration
+	- Deploy apllication on Top PM2
+
+Repository :
+[Dumbflix Frontend](https://github.com/dumbwaysdev/dumbflix-frontend)
+
+Tasks 4:
+- Clone wayshub frontendapplication
+- Use Node Version 14
+- Dont forget to change configuration on `src/config/api.js` and then adjust it to backend url.
+- Deploy  frontend apllication on Top PM2
+
+
+
+Tasks 5 :
+- Install nginx
+- Buatlah reverse proxy dan gunakan domain dengan nama kalian ex:
+  - frontend : randal.studentdumbways.my.id 
+     - ssl cloudflare boleh Active / atau ingin menggunakan SSL certbot juga dipersilahkan
+  - backend : api.randal.studentdumbways.my.id
+     - untuk Installation Certbot ada banyak cara (salah 1 nya seperti pada saat di kelas), atau kalau kalian menemukan cara lain untuk melakukan installation certbot atau tools yang lain yang digunakan untuk melakukan generate ssl feel free to use yaa.
+     - Generate SSL untuk reverse proxy kalian. 
+- Chalange coba cari bagaimana cara pengimplementasian Wildcard SSL 
+- Happy Explore :))
+
+ 
